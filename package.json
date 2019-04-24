@@ -1,0 +1,31 @@
+{
+  "name": "node_address_book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index",
+    "start:production": "NODE_ENV=production nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "express-validator": "^5.3.1",
+    "firebase": "^5.10.0",
+    "jimp": "^0.6.1",
+    "libvips": "0.0.2",
+    "lwip": "0.0.9",
+    "swagger-ui-express": "^4.0.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
